@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+  margin: 1;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0055a467;
+  color: #000000;
+  line-height: 1;
+  font-size: 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  gap: 3rem;               /* Space between items */
+}
+
+
+h1, h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+/* Hero Banner */
+.hero-banner {
+  background: linear-gradient(135deg, #4facfe, #dae4e5);
+  color: rgb(26, 13, 91);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-banner p {
+  font-size: 10rem;
+}
+
+/* Body Content */
+.body-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #6320d7;
+  padding: 50px 20px;
+}
+
+.faq-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-section li {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: rgb(141, 16, 16);
+  text-align: center;
+  padding: 20px;
+}
+
+
+.logo {
+  font-size: 5rem;
+  
+}
+.center-text {
+  text-align: center;
+  
+}
+
+.custom-img {
+  width: 600px;   /* Change to your liking */
+  height: 700px;  /* Change to your liking */
+  object-fit: cover;
+  object-position: center;
+}
